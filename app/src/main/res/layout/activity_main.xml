@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="25dp">
+
+    <TextView
+        android:id="@+id/tvEgicoffee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="kupi ges"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="kupi ges" />
+
+    <TextView
+        android:background="#009688"
+        android:id="@+id/tvJeniskopi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jenis_kopi"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="@string/jenis_kopi" />
+
+    <RadioButton
+        android:id="@+id/rb_kopiRobusta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kopi Robusta" />
+
+    <RadioButton
+        android:id="@+id/rb_ekspresso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/expresso" />
+
+    <RadioButton
+        android:id="@+id/rb_kopiLuwak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kopi_luwak" />
+
+    <TextView
+        android:background="#009688"
+        android:id="@+id/tvTopping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/topping"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Topping" />
+
+    <RadioButton
+        android:id="@+id/rb_cream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cream" />
+
+    <RadioButton
+        android:id="@+id/rb_sugar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sugar" />
+
+    <RadioButton
+        android:id="@+id/rb_bubukKopi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="Brown Sugar" />
+
+    <TextView
+        android:background="#009688"
+        android:id="@+id/tvMenutambahan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/menu_tambahan"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        tools:text="Menu Tambahan" />
+
+    <RadioButton
+        android:id="@+id/rb_nasiGoreng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nasi_goreng" />
+
+    <RadioButton
+        android:id="@+id/rb_mieGoreng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mie_goreng" />
+
+    <RadioButton
+        android:id="@+id/rb_mieRebus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mie Rebus" />
+
+    <Button
+        android:backgroundTint="#4CAF50"
+        android:onClick="clickbayar"
+        android:id="@+id/btnBayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bayar" />
+
+    <TextView
+        android:id="@+id/tvTotalbayar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="Total Bayar" />
+
+
+</LinearLayout>
